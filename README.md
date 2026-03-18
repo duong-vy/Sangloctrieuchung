@@ -48,8 +48,8 @@ git clone <https://github.com/duong-vy/Sangloctrieuchung>
 cd SANGLOCTRIEUCHUNG
 2. Cài đặt môi trường
 python -m venv .venv
-.venv\Scripts\activate          # Windows
-# source .venv/bin/activate     # Mac/Linux
+.venv\Scripts\activate         ( Windows)
+ source .venv/bin/activate     ( Mac/Linux)
 pip install -r requirements.txt
 3. Cấu hình API Key
 Tạo thư mục .streamlit và file secrets.toml:
