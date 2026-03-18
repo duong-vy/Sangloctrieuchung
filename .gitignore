@@ -416,3 +416,14 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+#Python virtual envi roment
+.venv/
+venv/
+env/
+__pycache__
+*.pyc
+#Streamlit secrets
+.Streamlit/secrets.toml
+# Các file hệ thống và file rác
+.DS_Store
