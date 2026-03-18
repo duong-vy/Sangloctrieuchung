@@ -44,20 +44,20 @@ SANGLOCTRIEUCHUNG/
 └── .venv/                  # (Gitignore) Môi trường ảo
 ## 🚀 Hướng dẫn cài đặt & chạy
 ### 1. Clone dự án
-git clone <https://github.com/duong-vy/Sangloctrieuchung>
-cd SANGLOCTRIEUCHUNG
-2. Cài đặt môi trường
-python -m venv .venv
-.venv\Scripts\activate         ( Windows)
- source .venv/bin/activate     ( Mac/Linux)
-pip install -r requirements.txt
-3. Cấu hình API Key
-Tạo thư mục .streamlit và file secrets.toml:
-tomlGOOGLE_API_KEY = ""
-4. Xây dựng cơ sở dữ liệu RAG (chạy 1 lần)
-python build_rag.py
-5. Chạy ứng dụng
-streamlit run app.py
+git clone <https://github.com/duong-vy/Sangloctrieuchung> <br>
+cd SANGLOCTRIEUCHUNG<br>
+2. Cài đặt môi trường <br>
+python -m venv .venv <br>
+.venv\Scripts\activate         ( Windows) <br>
+ source .venv/bin/activate     ( Mac/Linux) <br>
+pip install -r requirements.txt <br>
+3. Cấu hình API Key <br>
+Tạo thư mục .streamlit và file secrets.toml: <br>
+tomlGOOGLE_API_KEY = "" <br>
+4. Xây dựng cơ sở dữ liệu RAG (chạy 1 lần) <br>
+python build_rag.py <br>
+5. Chạy ứng dụng <br>
+streamlit run app.py <br>
 
 ⚠️ Lưu ý quan trọng
 
