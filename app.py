@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from operator import itemgetter
-from underthesea import word_tokenize
+
 
 # ====================== CẤU HÌNH GIAO DIỆN ======================
 st.set_page_config(page_title="HealthChat AI", page_icon="🩺", layout="wide")
@@ -149,7 +149,7 @@ if query := st.chat_input("VD: Tôi bị đau quặn bụng dưới bên phải 
     with st.chat_message("assistant", avatar="🩺"):
         with st.spinner("🧠 Đang phân tích triệu chứng..."):
             try:
-                processed_query = word_tokenize(query, format="text")
+                processed_query = query
                 
                 # Lấy lịch sử gần nhất (8 tin nhắn)
                 chat_history_str = "\n".join(
