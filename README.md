@@ -3,6 +3,7 @@
 **HealthChat AI** là một trợ lý ảo y tế sử dụng công nghệ **RAG (Retrieval-Augmented Generation)** kết hợp với mô hình ngôn ngữ lớn **Gemini 2.5 Flash**. Ứng dụng giúp người dùng mô tả triệu chứng bằng tiếng Việt, phân tích đa chiều, đưa ra đánh giá, nguyên nhân, gợi ý chẩn đoán, lời khuyên chăm sóc và hướng dẫn thăm khám (bao gồm gợi ý bệnh viện phù hợp theo vị trí).
 
 Ứng dụng hỗ trợ **chat liền mạch** (nhớ lịch sử), tự động **hỏi thêm thông tin** khi triệu chứng mơ hồ và **cảnh báo khẩn cấp** khi phát hiện dấu hiệu nguy hiểm tính mạng.
+## 🚀Link Demo online: https://healthchat-sangloctrieuchung.streamlit.app/
 
 ---
 
@@ -67,7 +68,8 @@ Người dùng phải đến cơ sở y tế để được chẩn đoán và đ
 
 
 GitHub: [https://github.com/duong-vy/Sangloctrieuchung]
-Demo: http://localhost:8501
+Demo: https://healthchat-sangloctrieuchung.streamlit.app/
+
 
 Cảm ơn quý thầy cô và hội đồng đã xem xét đồ án!
 
