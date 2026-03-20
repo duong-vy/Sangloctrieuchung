@@ -41,11 +41,11 @@ with st.sidebar:
     location = st.text_input("📍 Vị trí của bạn (tỉnh/thành phố)", value=st.session_state.location)
     st.session_state.location = location
     
-    if st.button("🗑️ Xóa cuộc trò chuyện"):
+    if st.button("🗑️ Xóa cuộc trò chuyện", key="clear_btn"):
         st.session_state.messages = [
             {"role": "assistant", "content": "Xin chào! Tôi là Trợ lý AI y tế. Bạn đang gặp triệu chứng gì? Hãy kể chi tiết nhé."}
         ]
-        st.rerun()
+        st.toast("Đã xóa lịch sử!", icon="🗑️")
     
     st.warning("⚠️ Không thay thế bác sĩ. Đi khám ngay nếu có dấu hiệu nguy hiểm!")
 
